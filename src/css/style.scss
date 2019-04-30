@@ -1,0 +1,13 @@
+@import "main";
+@import "aside";
+@import "toolbar";
+@import "footer";
+@import "header";
+@import 'cards';
+@import 'multiselect';
+
+#app{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

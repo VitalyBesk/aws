@@ -1,0 +1,53 @@
+.products-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100% - 4em);
+}
+
+.paginate-links{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  a{
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  li{
+
+    &.active{
+
+      a{
+        color: #007bff;
+      }
+    }
+  }
+}
+
+.card-wrap{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card--secondary{
+  height: 100%;
+  font-size: 0.875em;
+  text-transform: capitalize;
+  color: inherit;
+
+  &:hover{
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.card-img-top--secondary{
+  background: #f8f9fa;
+}
+
+.card-descr{
+  margin-bottom: 0;
+}
